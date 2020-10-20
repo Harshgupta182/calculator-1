@@ -96,6 +96,22 @@ void factorial(int n)
             factorial *= i;             
         }
         printf("Factorial of %d = %llu", n, factorial);
+	    
     }
+	{
+    int n;   
+    double x0,y0,x,y,h;            //for initial values, width, etc.
+    cout.precision(5);            //for precision
+    cout.setf(ios::fixed);               
+    cout<<"\nEnter the initial values of x and y respectively:\n";        //Initial values
+    cin>>x0>>y0;                           
+    cout<<"\nFor what value of x do you want to find the value of y\n";   
+    cin>>x;
+    cout<<"\nEnter the width of the sub-interval:\n";            //input width
+    cin>>h;
+    cout<<"x"<0.0000001)        //I couldn't just write "while(x0
+For dy/dx=-2x-y
+For dy/dx=x+y
+	}
     return 0;
 }
