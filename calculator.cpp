@@ -97,5 +97,7 @@ void factorial(int n)
         }
         printf("Factorial of %d = %llu", n, factorial);
     }
+
+    }
     return 0;
 }
